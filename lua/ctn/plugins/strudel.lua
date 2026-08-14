@@ -23,11 +23,11 @@ return {
 			},
 			-- Automatically start playback when launching Strudel
 			-- (optional, default: true)
-			start_on_launch = true,
+			start_on_launch = false,
 			-- Set to `true` to automatically trigger the code evaluation after saving the buffer content
 			-- Only works if the playback was already started (doesn't start the playback on save)
 			-- (optional, default: false)
-			update_on_save = true,
+			update_on_save = false,
 			-- Enable two-way cursor position sync between Neovim and Strudel editor
 			-- (optional, default: true)
 			sync_cursor = true,
