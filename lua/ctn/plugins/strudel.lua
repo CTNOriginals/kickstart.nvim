@@ -27,7 +27,7 @@ return {
 			-- Set to `true` to automatically trigger the code evaluation after saving the buffer content
 			-- Only works if the playback was already started (doesn't start the playback on save)
 			-- (optional, default: false)
-			update_on_save = false,
+			update_on_save = true,
 			-- Enable two-way cursor position sync between Neovim and Strudel editor
 			-- (optional, default: true)
 			sync_cursor = true,
@@ -46,7 +46,8 @@ return {
 			browser_data_dir = "~/.cache/strudel-nvim/",
 			-- Path to a (chromium-based) browser executable of choice
 			-- (optional, default: nil)
-			browser_exec_path = "/usr/bin/vivaldi",
+			-- browser_exec_path = "/usr/bin/vivaldi",
+			browser_exec_path = nil,
 			-- Custom URL for Strudel
 			-- (optional, default: "https://cold.strudel.cc/")
 			strudel_url = "https://cold.strudel.cc/",

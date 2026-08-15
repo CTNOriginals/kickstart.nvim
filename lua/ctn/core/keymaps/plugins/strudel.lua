@@ -2,7 +2,7 @@ local strudel = require("strudel")
 
 ---@alias keymapParams [string|string[], string, string|function, vim.keymap.set.Opts]
 
-local triggerKey = "<leader>l"
+local triggerKey = "<leader><cr>"
 
 ---@type table<string, keymapParams>
 local keymaps = {
